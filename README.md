@@ -1,0 +1,1 @@
+Este es un sencillo proyecto de una calculadora muy básica que subo principalmente por dos motivos, por la nostalgia de ser el primer proyecto y los primeros pasos en desarrollo y también porque estoy aprendiendo servidores en NodeJS
