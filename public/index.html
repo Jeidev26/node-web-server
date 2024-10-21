@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    
+   <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div id="cajona">
+      <h1>CALCULADORA</h1>    
+       
+  <form id="formulario">
+     <input id="caja1" type="text" placeholder="Ingresa primer valor"> 
+     <br>
+     <input id="caja2" type="text" placeholder="Ingresa segundo valor">    
+  </form>
+    
+       <button onclick="sumar()"> <img src="./Img/mas.png"   id="btnSumar"> </button>
+       <button onclick="restar()"><img src="./Img/menos.png" id="btnRestar"> </button>
+       <button onclick="multiplicar()"><img src="./Img/multiplicar.png" id="btnMultiplicar"></button>
+       <button onclick="dividir()"><img src="./Img/dividir.png" id="btnDividir"></button>
+       <button  id="act" onclick="clean()" ><img src="./Img/refresh.png" id="btnLimpiar"></button>
+          
+       <p id="caja-resultado"><span id="igual-symbol">=</span> <span id="cambio"></span></p>
+
+       
+    </div>
+   
+ 
+    <script src="./index.js"> </script>
+</body>
+</html>
